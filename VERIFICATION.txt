@@ -1,0 +1,15 @@
+CHECK BEFORE SUBMITTING
+Build Lab2.sln on Windows with .NET 10 support.
+Reject blank or space-only username/password. Accept arbitrary nonempty values.
+Confirm no Register button is present and Login opens Choose without an account.
+Open each activity. Test Back, Logout, Exit and the X buttons.
+Test invalid bicycle inputs: letters, decimals, negatives, start 24, end 0,
+end 25, equal start/end and start after end.
+Test the six rental totals listed in README.
+Test all six mushroom paths in README, plus YES, No and surrounding spaces.
+Reject blank, maybe and 1; keep the question unchanged after invalid input.
+Test Clear and Restart, including restarting after a completed result.
+Repeat navigation and confirm closing the application leaves no hidden window.
+
+Preparation checks cover logic and source wiring only. C# compilation and
+Windows appearance/navigation have not been executed here.
